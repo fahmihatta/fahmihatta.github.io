@@ -15,11 +15,11 @@
             setTimeout(function() {
                 let elapsed = Date.now() - start;
                
-                if (elapsed < 0) return;
+                if (elapsed < 2000) return;
 
                 // Jika lebih dari threshold, berarti aplikasi tidak terbuka dan kita arahkan ke Play Store
                 window.location = "market://details?id=app.micropay.ibsmobile"; 
-            }, 0);  
+            }, 2000);  
         }
     </script>
 </head>
