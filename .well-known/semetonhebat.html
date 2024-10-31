@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buka Aplikasi</title>
+    <script>
+        function openApp() {
+            
+            window.location = "https://fahmihatta.github.io/depplinkfhz.github.io/"; 
+
+         
+            let start = Date.now();
+
+            setTimeout(function() {
+                let elapsed = Date.now() - start;
+               
+                if (elapsed < 0) return;
+
+                // Jika lebih dari threshold, berarti aplikasi tidak terbuka dan kita arahkan ke Play Store
+                window.location = "market://details?id=app.micropay.ibsmobile"; 
+            }, 0);  
+        }
+    </script>
+</head>
+<body>
+
+    <div style="text-align: center; margin-top: 50px;">
+        <h1>Promo Menarik dari Aplikasi Anda!</h1>
+        <p>Jangan lewatkan penawaran terbaik!</p>
+        <button onclick="openApp()" style="padding: 15px 25px; background-color: #E63946; color: white; border: none; border-radius: 5px; font-weight: bold;">Buka Aplikasi</button>
+    </div>
+
+</body>
+</html>
