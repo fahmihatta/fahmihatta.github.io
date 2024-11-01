@@ -4,7 +4,7 @@
       "delegate_permission/common.handle_all_urls"
     ],
     "target": {
-      "namespace": "IBS Online",
+      "namespace": "android_app",
       "package_name": "app.micropay.ibsmobile",
       "sha256_cert_fingerprints": [
         "F3:9C:C7:5A:3A:2F:98:8B:27:7B:26:9D:4D:8D:33:63:2B:46:48:60:AA:1D:2C:10:98:55:D4:3D:FF:FA:5D:AE",
